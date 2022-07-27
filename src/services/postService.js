@@ -17,4 +17,24 @@ const getAllPostsService = async () => {
   return blogPosts;
 };
 
-module.exports = { getAllPostsService };
+const getPostByIdService = async (id) => {
+  const data = await BlogPost.findOne({ where: { id },
+    include: [
+       { model: User,
+         as: 'user', 
+         attributes: { exclude: ['password'] },
+       },
+       {
+         model: Category,
+         as: 'categories',
+         through: { attributes: [] },
+       },
+     ],
+});
+return data;
+};
+
+module.exports = {
+  getAllPostsService,
+  getPostByIdService,
+   };
