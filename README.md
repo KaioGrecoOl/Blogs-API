@@ -4,7 +4,7 @@
 
 O Projeto foi realizado como último exercício do Bloco 24, onde tive oportunidade de colocar em prática os conhecimentos adquridos no respecrtivo bloco, usando a arquitetura em camadas (model-service-controller), bem como conhecimentos sobre REST, criando uma API utilizando Mapeamento objeto-relacional ou ORM (Object-Relational Mapping.
 
-The Project was developed at the end of Unit 23, where I had to put into practice the knowledge acquired in the respective block, using the layered architecture (model-service-controller), as well as knowledge about REST, creating an API using Object Mapping -relational or ORM (Object-Relational Mapping.
+The Project was developed at the end of Unit 24, where I had to put into practice the knowledge acquired in the respective block, using the layered architecture (model-service-controller), as well as knowledge about REST, creating an API using Object Mapping -relational or ORM (Object-Relational Mapping.
 
 # Objetivo / Objective
 
